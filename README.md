@@ -1,4 +1,5 @@
 # GoLang_training
+# Refer godoc.org/<package>
 
 Go is Object Oriented
 1. Encapsulations
@@ -36,3 +37,14 @@ If there is an empty interface, every value can go into that
 
 
 Variadic parameter and empty interface -- Can take any number of parmaeters, Learn about this
+
+# NewEncoder (godoc.org) explained
+
+- type Encode
+  - func NewEncoder(w io.Writer) *Encoder --> This is an pointer to the encoder and the other function is given below
+  - func (enc *Encoder) Encode(v interface{}) error --> Encode the data here, any kind of data(as empty interface is provided) and will give error if anything goes wrong
+  - So now we have to get an encoder, and in  function NewEncoder we have to give it a writer
+  - os standard out is a pointer to a file, and any pointer to a file has method attached to it, which makes it a writer
+  - func (f *File) Write(b []byte) (n int, err error) 
+  - If we have anything poinyer to a file, it implements writer interface
+
