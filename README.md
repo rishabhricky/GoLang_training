@@ -35,4 +35,4 @@ If there is an empty interface, every value can go into that
 - Functions are first class citizens in GO, can be used as a type
 
 
-Variadic parameter and empty interface -- Can take any number of parmaeters
+Variadic parameter and empty interface -- Can take any number of parmaeters, Learn about this
