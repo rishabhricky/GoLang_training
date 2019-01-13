@@ -23,7 +23,7 @@ Go is Object Oriented
 
 Functions
 - In Go are PASS BY VALUE
-- Syntax --> func (r receiver) identifier(parameters) (return(s)) { ... }
+- Syntax --> func (r receiver) identifier(parameters) (return(s)) 	{ ... }
 
 
 - keyword identifier type --> var x int
