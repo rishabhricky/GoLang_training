@@ -48,3 +48,7 @@ Variadic parameter and empty interface -- Can take any number of parmaeters, Lea
   - func (f *File) Write(b []byte) (n int, err error) 
   - If we have anything poinyer to a file, it implements writer interface
 
+
+# Method set
+Method set determines what method attach to a TYPE. 
+If the receiver is a pointer then we can only use the type pointer
